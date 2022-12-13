@@ -20,6 +20,34 @@ function cardsHtml ( array ) {
 
 cardsHtml(pokemonPlush)
 
+function pokemonascendente (pokemonPlush) {
 
-
-confirm("Bienvenidos a R&A ¿Quieres ver nuestras ofertas?")
+    
+    const pokemonascendente = [...pokemonPlush].sort((a, b) => {
+        if ( a < b ){
+            return -1
+        } else if ( a > b){
+            return 1
+        } else {
+            return 0
+        }
+    })
+    
+    console.log(pokemonPlush)
+    console.log(pokemonascendente)
+    
+    const pokemonDescendente = [...pokemonPlush].sort((a, b) => {
+        if ( a < b ){
+            return 1
+        } else if ( a > b){
+            return -1
+        } else {
+            return 0
+        }
+    })
+    
+    console.log(pokemonDescendente)
+    
+}
+    
+    confirm("Bienvenidos a R&A ¿Quieres ver nuestras ofertas?")
