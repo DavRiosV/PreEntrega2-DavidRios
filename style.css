@@ -11,7 +11,7 @@ body{
 
 .card { 
     width: 170px;
-    height: 270px;
+    height: 300px;
     border: 1px solid rgb(177, 177, 177);
     border-radius: 15px;
     display: flex;
@@ -27,12 +27,49 @@ body{
 .card h2{
     text-align: center;
 }
+.card img {
+    position: relative;
+    top: 10px;
+}
 
 .card button{
     background-color: red;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
-    height: 25px;
-    border-radius: 5px;
+    font-size: larger;
+    height: 40px;
+    border-radius: 10px;
     align-self: center;
+    position: relative;
+    top: 10px;
+}
+
+#ordenar {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(238,20,31,1) 50%); 
+    color: black;
+    font-weight: bolder;
+    height: 40px;
+    border-radius: 60px;
+    align-self: center;
+}
+
+#pokeball img{
+    height: 80px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+}
+
+#pokeball2 img{
+    height: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+    left: 7px;
 }
