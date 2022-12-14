@@ -61,8 +61,6 @@ cardsHtml(pokemonPlush)
         console.log(nombrePokemonZ)
     }
 
-
-
         var confirma = confirm("Bienvenidos a R&A ¿Quieres ver nuestras ofertas?")
         console.log(confirma)
         if ( confirma) {
